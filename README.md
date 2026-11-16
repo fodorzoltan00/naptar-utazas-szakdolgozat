@@ -1,6 +1,6 @@
 # Naptár- és utazás-rendszerező webalkalmazás
 
-*BSc szakdolgozat – ELTE IK, programtervező informatikus szak*
+_BSc szakdolgozat – ELTE IK, programtervező informatikus szak_
 
 ## A projekt célja
 
