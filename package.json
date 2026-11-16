@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@12.21.0",
-  "engines": { "node": ">=26" },
+  "engines": {
+    "node": ">=26"
+  },
   "scripts": {
     "dev": "pnpm --filter @naptarterv/shared build && pnpm -r --parallel dev",
     "build": "pnpm -r build",
@@ -11,5 +13,11 @@
     "lint": "oxlint",
     "format": "prettier --write .",
     "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "oxlint": "^1.93.0",
+    "prettier": "^3.10.1"
   }
 }
